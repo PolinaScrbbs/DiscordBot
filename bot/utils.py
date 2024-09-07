@@ -8,13 +8,13 @@ async def get_today_weekday() -> str:
     today_weekday_number = datetime.datetime.today().date().weekday()
 
     day_mapping = {
-        '0': 'ПОНЕДЕЛЬНИК',
-        '1': 'ВТОРНИК',
-        '2': 'СРЕДА',
-        '3': 'ЧЕТВЕРГ',
-        '4': 'ПЯТНИЦА',
-        '5': 'СУББОТА',
-        '6': 'ВОСКРЕСЕНЬЕ'
+        0: 'ПОНЕДЕЛЬНИК',
+        1: 'ВТОРНИК',
+        2: 'СРЕДА',
+        3: 'ЧЕТВЕРГ',
+        4: 'ПЯТНИЦА',
+        5: 'СУББОТА',
+        6: 'ВОСКРЕСЕНЬЕ'
     }
 
     mapped_day = day_mapping.get(today_weekday_number, 'ПОНЕДЕЛЬНИК')
