@@ -1,2 +1,2 @@
-from .shedule import *
+from .schedule import *
 from .message import *

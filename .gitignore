@@ -11,6 +11,8 @@
 *.db-shm
 *.db-wal
 
+schedule.py
+
 ### dotenv ###
 .env
 
